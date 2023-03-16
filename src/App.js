@@ -11,11 +11,6 @@ function App() {
       <h1>The PokeAPI App</h1>
       <Row>
         <Col>
-          <p>
-            Testing for layout, styling
-          </p>
-        </Col>
-        <Col>
             <PokeList />
         </Col>
         <Col>

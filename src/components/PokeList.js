@@ -1,10 +1,20 @@
 import PokeDetailCard from "./PokeDetailCard";
 import React from 'react'
+import { selectAllPokemon } from "../pokeData/pokemonSlice";
 
 const PokeList = () => {
+    const allPokemon = selectAllPokemon();
     return (
         <div>
-            <PokeDetailCard />
+            <ul>
+                {allPokemon.map(pokemon => {
+                    return (
+                        <li>
+                            <PokeDetailCard pokemon={pokemon} />
+                        </li>
+                    );
+                })}
+            </ul>
         </div>
     );
 };

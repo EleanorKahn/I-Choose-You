@@ -1,22 +1,10 @@
 import { Card, CardTitle, CardBody, CardSubtitle, CardText, CardImg } from "reactstrap";
 import React from 'react';
 
-const PokeDetailCard = () => {
+const PokeDetailCard = ({ pokemon }) => {
+    const { name, id, type } = pokemon;
     return (
-        <Card>
-            <CardTitle tag="h5">
-                PokeName
-            </CardTitle>
-            <CardSubtitle>
-                Poke Evolution maybe?
-            </CardSubtitle>
-            <CardBody>
-                <CardImg src="../logo.svg" alt="react logo as placeholder"/>
-                <CardText>              
-                    Pokemon element affinity, stats, info etc
-                </CardText>
-            </CardBody>
-        </Card>
+        <p>My name is {name} and I am type {type} with an id of {id}</p>
     );
 };
 
