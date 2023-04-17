@@ -2,12 +2,12 @@ import { Card, CardTitle, CardBody, CardSubtitle, CardText, CardImg } from "reac
 import React from 'react';
 
 const PokeDetailCard = ({ pokemon }) => {
-    const { name, id, type } = pokemon;
+    const { name } = pokemon;
     return (
         <Card>
             <CardTitle>My name is {name}</CardTitle>
             <CardBody>
-                <CardText>I am type {type} with an id of {id}</CardText>
+                <CardText>I am a Pokemon</CardText>
             </CardBody>
         </Card>
     );
