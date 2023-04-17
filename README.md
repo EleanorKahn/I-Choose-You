@@ -1,3 +1,20 @@
+# Overview and Goals
+
+Welcome to I Choose You! 
+
+I built this project with the following learning goals in mind:
+-Fetching from an API
+-Displaying data in card format
+-Improving my card styling 
+
+# Tools
+This project was built using the following:
+-React
+-PokeAPI
+-Reactstrap
+-HTML
+-CSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
