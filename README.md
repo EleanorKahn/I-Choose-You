@@ -2,6 +2,8 @@
 
 Welcome to I Choose You! 
 
+I had a different idea for this project initially, but realized it required far, far more knowledge of Pokemon than I have, and was, as a result, not necessarily an effective use of resources. I may revisit at a later date.
+
 I built this project with the following learning goals in mind:
 -Fetching from an API
 -Displaying data in card format
